@@ -75,7 +75,7 @@
         android:textSize="20dp"></EditText>
 
     <TextView
-        android:id="@+id/ForgorPassword"
+        android:id="@+id/Forgorpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Password"
@@ -108,6 +108,7 @@
         android:orientation="horizontal">
 
         <ImageButton
+            android:id="@+id/google"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
