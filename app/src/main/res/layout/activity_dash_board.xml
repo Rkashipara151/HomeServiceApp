@@ -76,18 +76,55 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="146dp"
-        android:layout_below="@id/Categories"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/Categories">
 
-
-        <ImageView
-            android:id="@+id/imageView4"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cleaning" />
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgviewCleaning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cleaning"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imgviewElectrician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/electrician"
+                android:layout_margin="10dp">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgviewPlumbing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/plumbing"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imgviewPainting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/painting"
+                android:layout_margin="10dp">
+            </ImageView>
+        </LinearLayout>
+
     </LinearLayout>
-
-
 </RelativeLayout>
