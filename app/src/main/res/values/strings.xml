@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HomeServiceApp</string>
+    <string name="login">LogIn</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="log_in">Log In</string>
+    <string name="e_address">Email Address</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="enter_your_email_to_reset_password">Enter Your Email to Reset Password</string>
+    <string name="reset_password">Reset Password</string>
+</resources>
