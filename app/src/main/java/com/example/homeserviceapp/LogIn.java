@@ -73,9 +73,6 @@ public class LogIn extends AppCompatActivity {
                 perforauth();
             }
         });
-
-
-
     }
 
     private void perforauth() {
