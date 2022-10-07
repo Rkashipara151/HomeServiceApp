@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "724651468834",
+    "project_id": "homeserviceapp-80b0c",
+    "storage_bucket": "homeserviceapp-80b0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724651468834:android:72b15cf776f0743bcf027b",
+        "android_client_info": {
+          "package_name": "com.example.homeserviceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724651468834-4g1mcpdg1gdbh6bvunffm1nbvqfcf9l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWWK389WrindC7gWaZBfxoKHt1tVCHk8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724651468834-4g1mcpdg1gdbh6bvunffm1nbvqfcf9l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
