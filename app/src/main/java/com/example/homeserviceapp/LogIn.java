@@ -13,6 +13,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class LogIn extends AppCompatActivity {
 
     EditText EmailAddress,Password;
@@ -23,6 +26,7 @@ public class LogIn extends AppCompatActivity {
     ProgressDialog progressDialog;
     FirebaseAuth mAuth;
     FirebaseUser mUser;
+
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -35,6 +39,9 @@ public class LogIn extends AppCompatActivity {
         LogInBtn = findViewById(R.id.LogInBtn);
         Forgorpassword = findViewById(R.id.Forgorpassword);
         google = findViewById(R.id.google);
+        mAuth = FirebaseAuth.getInstance();
+        progressDialog = new ProgressDialog(LogIn.this);
+
 
         Forgorpassword.setOnClickListener(new View.OnClickListener() {
             @Override
