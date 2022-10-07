@@ -8,9 +8,11 @@
     android:background="@color/white">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
         android:orientation="horizontal">
 
 
@@ -42,10 +44,10 @@
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_marginStart="160dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
             app:srcCompat="@drawable/ic_profile" />
 
     </LinearLayout>
@@ -74,30 +76,18 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="146dp"
         android:layout_below="@id/Categories"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
 
-        <LinearLayout
+
+        <ImageView
+            android:id="@+id/imageView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-
-
-
-        </LinearLayout>
-
+            app:srcCompat="@drawable/cleaning" />
     </LinearLayout>
+
+
 </RelativeLayout>
