@@ -55,6 +55,7 @@ public class LogIn extends AppCompatActivity {
             public void onClick(View view) {
                 Intent fp = new Intent(LogIn.this,ForgotPassword.class);
                 startActivity(fp);
+                finish();
             }
         });
 
@@ -63,6 +64,7 @@ public class LogIn extends AppCompatActivity {
             public void onClick(View view) {
                 Intent sp = new Intent(LogIn.this,SignUp.class);
                 startActivity(sp);
+                finish();
             }
         });
 
@@ -115,7 +117,7 @@ public class LogIn extends AppCompatActivity {
             private void sendUserToNextActivvity() {
                 Intent Main = new Intent(LogIn.this, DashBoard.class);
                 startActivity(Main);
-
+                finish();
             }
         });
     }

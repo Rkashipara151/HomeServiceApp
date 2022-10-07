@@ -46,6 +46,7 @@ public class ForgotPassword extends AppCompatActivity {
             public void onClick(View view) {
                 Intent sp = new Intent(ForgotPassword.this,SignUp.class);
                 startActivity(sp);
+                finish();
             }
         });
 
@@ -88,6 +89,7 @@ public class ForgotPassword extends AppCompatActivity {
     private void sendUserToNextActivity() {
         Intent Main = new Intent(ForgotPassword.this, LogIn.class);
         startActivity(Main);
+        finish();
 
     }
 }

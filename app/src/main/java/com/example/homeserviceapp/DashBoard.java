@@ -40,6 +40,7 @@ public class DashBoard extends AppCompatActivity {
             public void onClick(View view) {
                 Intent pr = new Intent(DashBoard.this,ProfileActivity.class);
                 startActivity(pr);
+                finish();
             }
         });
 
