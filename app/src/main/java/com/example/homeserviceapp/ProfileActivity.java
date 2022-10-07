@@ -32,6 +32,7 @@ public class ProfileActivity extends AppCompatActivity {
                 mAuth.signOut();
                 Intent so = new Intent(ProfileActivity.this,LogIn.class);
                 startActivity(so);
+                finish();
             }
         });
    }
