@@ -29,12 +29,18 @@ public class ProfileActivity extends AppCompatActivity {
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mAuth.signOut();
-                Intent so = new Intent(ProfileActivity.this,LogIn.class);
-                startActivity(so);
-                finish();
+                signOut();
             }
         });
+
    }
+
+    private void signOut() {
+        Intent mainActicvity = new Intent(ProfileActivity.this,LogIn.class);
+        mainActicvity.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(mainActicvity);
+        finish();
+
+    }
 
 }

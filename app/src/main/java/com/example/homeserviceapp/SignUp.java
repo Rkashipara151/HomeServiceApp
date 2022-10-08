@@ -53,7 +53,6 @@ public class SignUp extends AppCompatActivity {
             public void onClick(View view) {
                 Intent Login = new Intent(SignUp.this,LogIn.class);
                 startActivity(Login);
-                finish();
             }
         });
 
@@ -120,6 +119,5 @@ public class SignUp extends AppCompatActivity {
 
         Intent Main = new Intent(SignUp.this,LogIn.class);
         startActivity(Main);
-        finish();
     }
 }
